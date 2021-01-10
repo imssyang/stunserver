@@ -1,0 +1,13 @@
+
+# 修改common.inc
+BOOST_INCLUDE := -I/opt/boost/include
+OPENSSL_INCLUDE := -I/opt/openssl/include
+
+# 安装
+mkdir /opt/stunserver/bin
+cp stunclient /opt/stunserver/bin
+cp stunserver /opt/stunserver/bin
+cp stuntestcode /opt/stunserver/bin
+
+
+
